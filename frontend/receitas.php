@@ -52,8 +52,37 @@
         </div>
       </nav>
 
+      <div class="container">
+
+      <h3 class="display-5 text-center" style="color: #92a34f;">Receitas</h3>
+      <hr>
+
+      <form class="d-flex" role="search">
+        <input class="form-control form-control-lg me-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+        <button class="btn btn-dark" type="submit">Pesquisar</button>
+      </form>
+
+
+
+
+      <nav  style="background-color: rgb(255, 244, 213);">
+        <ul class="pagination justify-content-center">
+          <li class="page-item">
+            <a class="page-link text-dark">Voltar</a>
+          </li>
+          <li class="page-item"><a class="page-link text-dark" href="#">1</a></li>
+          <li class="page-item"><a class="page-link text-dark" href="#">2</a></li>
+          <li class="page-item"><a class="page-link text-dark" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link text-dark" href="#">Próximo</a>
+          </li>
+        </ul>
+      </nav>
+
+      </div>
+
       <footer class="py-5">
-        <div class="bg-dark text-light fixed-bottom d-flex justify-content-between py-4 my-4 border-top">
+        <div class="bg-dark text-light fixed-bottom d-flex justify-content-between py-4 border-top">
           <p>&copy; 2022 Company, Inc. All rights reserved.</p>
         </div>
       </footer>	

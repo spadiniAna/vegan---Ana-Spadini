@@ -62,10 +62,21 @@
 
                 </div>
               </div>
+
+              <h1 class="display-1 text-center" style="color: #92a34f;">Bem vindo!</h1>
+              <hr>
+              <h5 class="display-6 text-center" style="color: #92a34f;">Fique por dentro do mundo vegano</h5>
+
+              <div class="row justify-content-center" style="background-color: white;">
+
+              <p>olá</p>
+
+
+              </div>
       </div>
 
               <footer class="py-5">
-                <div class="bg-dark text-light fixed-bottom d-flex justify-content-between py-4 my-4 border-top">
+                <div class="bg-dark text-light fixed-bottom d-flex justify-content-between py-4 border-top">
                     <p>&copy; 2022 Company, Inc. All rights reserved.</p>
                 </div>
             </footer>	

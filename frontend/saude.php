@@ -53,7 +53,7 @@
       </nav>
 
       <footer class="py-5">
-        <div class="bg-dark text-light fixed-bottom d-flex justify-content-between py-4 my-4 border-top">
+        <div class="bg-dark text-light fixed-bottom d-flex justify-content-between py-4 border-top">
           <p>&copy; 2022 Company, Inc. All rights reserved.</p>
         </div>
       </footer>	

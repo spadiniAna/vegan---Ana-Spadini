@@ -52,8 +52,21 @@
         </div>
       </nav>
 
+    <div class="container">
+
+    <h3 class="display-5 text-center" style="color: #92a34f;">Mapa</h3>
+    <hr>
+
+    <form class="d-flex" role="search">
+      <input class="form-control form-control-lg me-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+      <button class="btn btn-dark" type="submit">Pesquisar</button>
+    </form>
+
+
+    </div>
+
       <footer class="py-5">
-        <div class="bg-dark text-light fixed-bottom d-flex justify-content-between py-4 my-4 border-top">
+        <div class="bg-dark text-light fixed-bottom d-flex justify-content-between py-4 border-top">
           <p>&copy; 2022 Company, Inc. All rights reserved.</p>
         </div>
       </footer>	
