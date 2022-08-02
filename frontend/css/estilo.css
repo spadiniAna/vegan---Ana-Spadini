@@ -1,0 +1,56 @@
+html {
+    background-color:rgb(255, 244, 213);
+}
+
+nav {
+    background-color: #92a34f;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #92a34f;
+    border-radius: .25rem;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#card-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #92a34f;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.ico-svg.ico-orange {
+    fill: #92a34f;
+    
+}
+
+.send-recipe-form input[type=text] {
+    border-radius: 20px;
+    color: #595959;
+}
+.send-recipe-form .gray-box {
+    border: 0;
+    border-radius: 10px;
+    background-color: #e7e7e7;
+    padding: 10px 20px;
+}
+
+.send-recipe-images .send-recipe-files .clear-send-images.clear-send-images-hover {
+    visibility: visible;
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+
