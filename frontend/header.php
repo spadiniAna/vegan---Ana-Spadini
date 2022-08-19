@@ -1,38 +1,255 @@
-    <nav class="navbar sticky-top navbar-expand-lg">
-        <div class="container">
-          <a class="navbar-brand text-light" href="#">++Vegan</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link text-light" aria-current="page" href="pag_inicial.php">Página inicial</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light" href="receitas.php">Receitas</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light" href="blog.php">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light" href="mapa.php">Mapa</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light" href="saude.php">Saúde</a>
-              </li>
-            </ul>
-          </div>
-          <div>
-              <ul class="navbar-nav justify-content-end me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="login.php">Login</a>
-                </li>
-                <div class="vr text-light"></div>
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="cadastro.php">Cadastre-se</a>
-                </li>
-              </ul>
-          </div>
-        </div>
+<div id="mobileNavWrapper" class="nav-wrapper" data-content-field="navigation-mobileNav">
+    <nav id="mobileNavigation">
+      
+
+      
+        
+          
+
+          
+
+            
+            <div class="collection active homepage">
+              <a href="/">
+                Início
+              </a>
+            </div>
+            
+
+          
+        
+        
+
+      
+        
+          
+
+          
+
+            
+            <div class="collection">
+              <a href="/read-me-bedford">
+                Receitas
+              </a>
+            </div>
+            
+
+          
+        
+        
+
+      
+        
+          
+
+          
+
+            
+            <div class="collection">
+              <a href="/sevicoshtml">
+                Blog
+              </a>
+            </div>
+            
+
+          
+        
+        
+
+      
+        
+          
+
+          
+
+            
+            <div class="collection">
+              <a href="/nova-pagina">
+                Mapa
+              </a>
+            </div>
+            
+
+          
+        
+        
+
+      
+        
+          
+
+          
+
+            
+            <div class="collection">
+              <a href="/sade">
+                Saúde
+              </a>
+            </div>
+            
+
+          
+        
+        
+
+      
+        
+          
+
+          
+
+            
+            <div class="collection">
+              <a href="/nova-pgina">
+                Entrar
+              </a>
+            </div>
+            
+
+          
+        
+        
+
+      
     </nav>
+  </div>
+
+
+
+    </div>
+    <div id="siteWrapper" class="clearfix">
+
+      <div class="sqs-cart-dropzone"></div>
+
+      <header id="header" class="show-on-scroll" data-offset-el=".index-section" data-offset-behavior="bottom" role="banner">
+        <div class="header-inner">
+          <div id="siteTitleWrapper" class="wrapper" data-content-field="site-title">
+            
+              <h1 id="siteTitle" class="site-title"><a href="/">++Vegan</a></h1>
+            
+          </div><!--
+          --><div class="mobile-nav-toggle"><div class="top-bar"></div><div class="middle-bar"></div><div class="bottom-bar"></div></div><div class="mobile-nav-toggle fixed-nav-toggle"><div class="top-bar"></div><div class="middle-bar"></div><div class="bottom-bar"></div></div><!--
+          --><div id="headerNav">
+
+  <div id="mainNavWrapper" class="nav-wrapper" data-content-field="navigation-mainNav">
+    <nav id="mainNavigation" data-content-field="navigation-mainNav">
+      
+
+      
+        
+          
+
+          
+
+            
+            <div class="collection active homepage">
+              <a href="/">
+                Início
+              </a>
+            </div>
+            
+
+          
+        
+        
+
+      
+        
+          
+
+          
+
+            
+            <div class="collection">
+              <a href="/read-me-bedford">
+                Receitas
+              </a>
+            </div>
+            
+
+          
+        
+        
+
+      
+        
+          
+
+          
+
+            
+            <div class="collection">
+              <a href="/sevicoshtml">
+                Blog
+              </a>
+            </div>
+            
+
+          
+        
+        
+
+      
+        
+          
+
+          
+
+            
+            <div class="collection">
+              <a href="/nova-pagina">
+                Mapa
+              </a>
+            </div>
+            
+
+          
+        
+        
+
+      
+        
+          
+
+          
+
+            
+            <div class="collection">
+              <a href="/sade">
+                Saúde
+              </a>
+            </div>
+            
+
+          
+        
+        
+
+      
+        
+          
+
+          
+
+            
+            <div class="collection">
+              <a href="/nova-pgina">
+                Entrar
+              </a>
+            </div>
+            
+
+          
+        
+        
+
+      
+    </nav>
+  </div>
+  <!-- style below blocks out the mobile nav toggle only when nav is loaded -->
+  <style>.mobile-nav-toggle-label { display: inline-block !important; }</style>
+
+
+</div>
+        </div>
+      </header>
