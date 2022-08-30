@@ -49,9 +49,6 @@
     <div id="sidecarNav">
       
 
-  <div id="mobileNavWrapper" class="nav-wrapper" data-content-field="navigation-mobileNav">
-    <nav id="mobileNavigation">
-      
   <?php
  
  include_once "header.php";
