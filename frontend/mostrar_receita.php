@@ -1,4 +1,8 @@
+<?php
 
+include '../backend/receita_class.php';
+
+?>
 <!doctype html>
 <html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" lang="pt-BR"  class="touch-styles" data-authenticated-account>
   <head>
@@ -95,22 +99,66 @@
 
         ?>
 
-         <div class="sqs-layout sqs-grid-12 columns-12" data-type="page" data-updated-on="1660337840771" id="page-62f1398718da9d7a6a1cf8f4"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1660336897688_3749">
-            <div class="sqs-block-content">
-                <h1 style="white-space:pre-wrap;"><?php echo $receita['titulo']; ?></h1>
-                <h3 style="white-space:pre-wrap;"><?php echo $receita['sub']; ?></h3>
-                <h3 style="margin-left:40px; color: gray; white-space:pre-wrap;"><?php echo $receita['categoria']; ?></h3>
-                <p class="" style="white-space:pre-wrap;"><?php echo $receita['texto']; ?></p>
-
-</div></div>
-
-<div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1660337325569_10902"><div class="sqs-block-content"><p style="text-align:right;white-space:pre-wrap;" class=""><em>Publicado por: <?php echo $conhecimento['autor']; ?>.</em></p><p style="text-align:right;white-space:pre-wrap;" class=""><em>Em </em></p>
-</div></div>
+         <div class="sqs-layout sqs-grid-12 columns-12" data-type="page" data-updated-on="1661890429978" id="page-63050c407bf7e31987879b41"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1661883881471_11405"><div class="sqs-block-content"><h1 style="text-align:center;white-space:pre-wrap;">Título&nbsp;</h1>
 
 
-<div class="horizontalrule-block sqs-block-horizontalrule" data-block-type="47" id="block-yui_3_17_2_1_1660581104174_3277"><div class="sqs-block-content"><hr /></div></div>
+</div></div><div class="sqs-block image-block sqs-block-image" data-aspect-ratio="35.46025104602511" data-block-type="5" id="block-yui_3_17_2_1_1661883881471_3129"><div class="sqs-block-content">
 
-<div class="row sqs-row"><div class="col sqs-col-4 span-4"><div class="sqs-block button-block sqs-block-button" data-block-type="53" id="block-yui_3_17_2_1_1660581104174_4120"><div class="sqs-block-content">
+  
+    <div
+        class="
+          image-block-outer-wrapper
+          layout-caption-below
+          design-layout-inline
+          combination-animation-none
+          individual-animation-none
+          individual-text-animation-none
+        "
+        data-test="image-block-inline-outer-wrapper"
+    >
+
+        <figure
+            class="
+              sqs-block-image-figure
+              intrinsic
+            "
+            style="max-width:2500px;"
+        >  
+          <div
+                         
+              class="image-block-wrapper"
+              data-animation-role="image"
+        
+          >
+            <div class="sqs-image-shape-container-element
+             
+              has-aspect-ratio
+            " style="
+                position: relative;
+                
+                  padding-bottom:35.46025085449219%;
+                
+                overflow: hidden;
+              "
+              >
+              <noscript><img src="https://images.squarespace-cdn.com/content/v1/63050c11ddcd0a16fe55b52a/1661883943692-9LQAVDNIH8J23RJDGVZO/unsplash-image-jpkfc5_d-DI.jpg" alt="" /></noscript><img class="thumb-image" data-src="https://images.squarespace-cdn.com/content/v1/63050c11ddcd0a16fe55b52a/1661883943692-9LQAVDNIH8J23RJDGVZO/unsplash-image-jpkfc5_d-DI.jpg" data-image="https://images.squarespace-cdn.com/content/v1/63050c11ddcd0a16fe55b52a/1661883943692-9LQAVDNIH8J23RJDGVZO/unsplash-image-jpkfc5_d-DI.jpg" data-image-dimensions="2500x1668" data-image-focal-point="0.5,0.5" alt="" data-load="false" data-image-id="630e5627de8613740a3e9cf6" data-type="image" />
+            </div>
+          </div>
+        
+        </figure>
+      
+    </div>
+  
+</div></div><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1661883881471_12312"><div class="sqs-block-content"><h3 style="text-align:center;white-space:pre-wrap;">Tempo de preparo: 30 minutos</h3><h3 style="text-align:center;white-space:pre-wrap;">Rendimento: 4 porções</h3><h3 style="text-align:center;white-space:pre-wrap;">Nível de dificuldade: Fácil</h3><h3 style="text-align:center;white-space:pre-wrap;">Categoria: sobremesa</h3>
+
+
+</div></div><div class="sqs-block horizontalrule-block sqs-block-horizontalrule" data-block-type="47" id="block-yui_3_17_2_1_1661276089182_2427"><div class="sqs-block-content"><hr /></div></div><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1661883881471_14975"><div class="sqs-block-content"><h3 style="white-space:pre-wrap;">Ingredientes</h3><ul data-rte-list="default"><li><p class="" style="white-space:pre-wrap;">1 açúcar</p></li><li><p class="" style="white-space:pre-wrap;">3 ovos</p></li><li><p class="" style="white-space:pre-wrap;">1 leite</p></li><li><p class="" style="white-space:pre-wrap;">3 farinhas</p></li></ul>
+
+
+</div></div><div class="sqs-block spacer-block sqs-block-spacer" data-aspect-ratio="2.301255230125523" data-block-type="21" id="block-yui_3_17_2_1_1661890356060_9912"><div class="sqs-block-content">&nbsp;</div></div><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1661890356060_11026"><div class="sqs-block-content"><h3 style="white-space:pre-wrap;">modo de preparo</h3><p class="" style="white-space:pre-wrap;">bata tudo no liquidificador até ficar homogêneo;</p><p class="" style="white-space:pre-wrap;">adicione o fermento e misture;</p><p class="" style="white-space:pre-wrap;">leve ao fogo pré-aquecido a 180 graus por 40 minutos.</p>
+
+
+</div></div><div class="sqs-block horizontalrule-block sqs-block-horizontalrule" data-block-type="47" id="block-yui_3_17_2_1_1661883881471_26541"><div class="sqs-block-content"><hr /></div></div><div class="sqs-block button-block sqs-block-button" data-block-type="53" id="block-yui_3_17_2_1_1661883881471_26973"><div class="sqs-block-content">
 
 <div
   class="sqs-block-button-container sqs-block-button-container--left"
@@ -120,60 +168,14 @@
   data-button-type="tertiary"
 >
   <a
-    href="../receitas.php"
+    href="receitas.php"
     class="sqs-block-button-element--small sqs-button-element--tertiary sqs-block-button-element"
     
   >
     Voltar
   </a>
 </div>
-</div></div></div>
-
-<div class="col sqs-col-6 span-6"><div class="sqs-block button-block sqs-block-button" data-block-type="53" id="block-yui_3_17_2_1_1660581191892_3914"><div class="sqs-block-content">
-
-
-
-<div
-  class="sqs-block-button-container sqs-block-button-container--right"
-  data-animation-role="button"
-  data-alignment="right"
-  data-button-size="small"
-  data-button-type="tertiary"
->
-  <button
-    type="button"
-    onclick="edit('<?php echo $receita['id']; ?>')"
-    class="sqs-block-button-element--small sqs-button-element--tertiary sqs-block-button-element"
-    
-  >
-    editar
-        </button>
-</div>
-</div></div></div>
-
-<div class="col sqs-col-2 span-2"><div class="sqs-block button-block sqs-block-button" data-block-type="53" id="block-yui_3_17_2_1_1660581191892_4582"><div class="sqs-block-content">
-
-<div
-  class="sqs-block-button-container sqs-block-button-container--left"
-  data-animation-role="button"
-  data-alignment="left"
-  data-button-size="small"
-  data-button-type="tertiary"
->
-  <button
-    type="button"
-    onclick="exclu('<?php echo $receita['id']; ?>')"
-    class="sqs-block-button-element--small sqs-button-element--tertiary sqs-block-button-element"
-    
-  >
-    excluir
-        </button>
-</div>
-</div></div></div>
-
-</div>
-
-</div></div></div>
+</div></div></div></div></div>
         </div><!--
         -->
 
