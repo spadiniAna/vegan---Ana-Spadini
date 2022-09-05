@@ -222,7 +222,7 @@ box-shadow: 5px 5px 10px rgb(121, 121, 121);
         <input
           class="button sqs-system-button sqs-editable-button sqs-button-element--primary"
           type="submit"
-          value="Entrar"
+          value="Cadastrar"
         />
     </form>
   </div>     
