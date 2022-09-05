@@ -1,4 +1,8 @@
+<?php
 
+    include '../backend/receita_class.php';
+
+?>
 <!doctype html>
 <html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" lang="pt-BR"  class="touch-styles" data-authenticated-account>
   <head>
@@ -108,7 +112,29 @@
 </div>
 </div></div></div></div><div class="sqs-block horizontalrule-block sqs-block-horizontalrule" data-block-type="47" id="block-yui_3_17_2_1_1660678812134_8835"><div class="sqs-block-content"><hr /></div></div>
 
-<div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-6ce33903eabc50600192"><div class="sqs-block-content"><h3 style="white-space:pre-wrap;">Recurso 2</h3><p class="" style="white-space:pre-wrap;">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Vivamus sit amet semper lacus, in mollis libero.</p>
+
+<?php
+
+$r = new receitas();
+
+if(isset($_GET['a'])){
+
+    $receitas = $r->busca($_GET['a']);
+
+}else{
+
+    $receitas = $r->listar();
+
+}
+
+
+foreach($receitas as $receita){
+
+?>
+
+<div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-6ce33903eabc50600192"><div class="sqs-block-content">
+  <h3 style="white-space:pre-wrap;"><?php echo $receita['titulo'];?></h3>
+  <p class="" style="white-space:pre-wrap;"><?php echo $receita['categoria'];?></p>
 
 
 </div></div><div class="sqs-block button-block sqs-block-button" data-block-type="53" id="block-6440c8716035b73869a6"><div class="sqs-block-content">
@@ -121,7 +147,7 @@
   data-button-type="tertiary"
 >
   <a
-    href=""
+    href="mostrar_receita.php?id=<?php echo $receita['id']; ?>"
     class="sqs-block-button-element--small sqs-button-element--tertiary sqs-block-button-element"
     
   >
@@ -129,6 +155,8 @@
   </a>
 </div>
 </div></div><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-472c473726d0be1f4ea4"><div class="sqs-block-content">&nbsp;</div></div>
+
+<?php } ?>
 
 <div class="sqs-block horizontalrule-block sqs-block-horizontalrule" data-block-type="47" id="block-yui_3_17_2_1_1660678812134_8835"><div class="sqs-block-content"><hr /></div></div>
 

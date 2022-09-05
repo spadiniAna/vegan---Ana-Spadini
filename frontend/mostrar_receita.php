@@ -80,26 +80,36 @@ include '../backend/receita_class.php';
         --><div id="content" class="main-content" data-content-field="main-content" data-collection-id="62f1398718da9d7a6a1cf8f4" data-edit-main-image="">
 
         
+        
         <?php
+              $receitas = new receitas();
 
-        $rec = new receitas();
+          if(isset($_GET['id'])){
 
-        if(isset($_GET['a'])){
+            $receitas->set_id($_GET['id']);
 
-            $receitas = $rec->busca($_GET['a']);
+              $receitas = $receita->listar();
 
-        }else{
+              foreach($receita as $r){
 
-            $receitas = $rec->listar();
+                $id = $r['id'];
+                $titulo = $r['titulo'];
+                $img = $r['img'];
+                $tempo = $r['tempo'];
+                $categoria = $r['categoria'];
+                $dificuldade = $r['dificuldade'];
+                $rende = $r['rende'];
+                $ingr = $r['ingr'];
+                $preparo = $r['preparo'];
 
-        }
+              }
 
-
-        foreach($receitas as $receita){
+          }
 
         ?>
 
-         <div class="sqs-layout sqs-grid-12 columns-12" data-type="page" data-updated-on="1661890429978" id="page-63050c407bf7e31987879b41"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1661883881471_11405"><div class="sqs-block-content"><h1 style="text-align:center;white-space:pre-wrap;">Título&nbsp;</h1>
+         <div class="sqs-layout sqs-grid-12 columns-12" data-type="page" data-updated-on="1661890429978" id="page-63050c407bf7e31987879b41"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1661883881471_11405"><div class="sqs-block-content">
+          <h1 style="text-align:center;white-space:pre-wrap;">Título&nbsp;</h1>
 
 
 </div></div><div class="sqs-block image-block sqs-block-image" data-aspect-ratio="35.46025104602511" data-block-type="5" id="block-yui_3_17_2_1_1661883881471_3129"><div class="sqs-block-content">
@@ -149,16 +159,27 @@ include '../backend/receita_class.php';
       
     </div>
   
-</div></div><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1661883881471_12312"><div class="sqs-block-content"><h3 style="text-align:center;white-space:pre-wrap;">Tempo de preparo: 30 minutos</h3><h3 style="text-align:center;white-space:pre-wrap;">Rendimento: 4 porções</h3><h3 style="text-align:center;white-space:pre-wrap;">Nível de dificuldade: Fácil</h3><h3 style="text-align:center;white-space:pre-wrap;">Categoria: sobremesa</h3>
+</div></div><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1661883881471_12312"><div class="sqs-block-content">
+  <h3 style="text-align:center;white-space:pre-wrap;">Tempo de preparo: 30 minutos</h3>
+  <h3 style="text-align:center;white-space:pre-wrap;">Rendimento: 4 porções</h3>
+  <h3 style="text-align:center;white-space:pre-wrap;">Nível de dificuldade: Fácil</h3>
+  <h3 style="text-align:center;white-space:pre-wrap;">Categoria: sobremesa</h3>
 
 
-</div></div><div class="sqs-block horizontalrule-block sqs-block-horizontalrule" data-block-type="47" id="block-yui_3_17_2_1_1661276089182_2427"><div class="sqs-block-content"><hr /></div></div><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1661883881471_14975"><div class="sqs-block-content"><h3 style="white-space:pre-wrap;">Ingredientes</h3><ul data-rte-list="default"><li><p class="" style="white-space:pre-wrap;">1 açúcar</p></li><li><p class="" style="white-space:pre-wrap;">3 ovos</p></li><li><p class="" style="white-space:pre-wrap;">1 leite</p></li><li><p class="" style="white-space:pre-wrap;">3 farinhas</p></li></ul>
+</div></div><div class="sqs-block horizontalrule-block sqs-block-horizontalrule" data-block-type="47" id="block-yui_3_17_2_1_1661276089182_2427"><div class="sqs-block-content"><hr /></div></div><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1661883881471_14975"><div class="sqs-block-content">
+  <h3 style="white-space:pre-wrap;">Ingredientes</h3>
+  <ul data-rte-list="default"><li><p class="" style="white-space:pre-wrap;">1 açúcar</p></li><li><p class="" style="white-space:pre-wrap;">3 ovos</p></li><li><p class="" style="white-space:pre-wrap;">1 leite</p></li><li><p class="" style="white-space:pre-wrap;">3 farinhas</p></li></ul>
 
 
-</div></div><div class="sqs-block spacer-block sqs-block-spacer" data-aspect-ratio="2.301255230125523" data-block-type="21" id="block-yui_3_17_2_1_1661890356060_9912"><div class="sqs-block-content">&nbsp;</div></div><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1661890356060_11026"><div class="sqs-block-content"><h3 style="white-space:pre-wrap;">modo de preparo</h3><p class="" style="white-space:pre-wrap;">bata tudo no liquidificador até ficar homogêneo;</p><p class="" style="white-space:pre-wrap;">adicione o fermento e misture;</p><p class="" style="white-space:pre-wrap;">leve ao fogo pré-aquecido a 180 graus por 40 minutos.</p>
+</div></div><div class="sqs-block spacer-block sqs-block-spacer" data-aspect-ratio="2.301255230125523" data-block-type="21" id="block-yui_3_17_2_1_1661890356060_9912"><div class="sqs-block-content">&nbsp;</div></div><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1661890356060_11026"><div class="sqs-block-content">
+  <h3 style="white-space:pre-wrap;">modo de preparo</h3>
+  <p class="" style="white-space:pre-wrap;">bata tudo no liquidificador até ficar homogêneo;</p><p class="" style="white-space:pre-wrap;">adicione o fermento e misture;</p><p class="" style="white-space:pre-wrap;">leve ao fogo pré-aquecido a 180 graus por 40 minutos.</p>
 
 
-</div></div><div class="sqs-block horizontalrule-block sqs-block-horizontalrule" data-block-type="47" id="block-yui_3_17_2_1_1661883881471_26541"><div class="sqs-block-content"><hr /></div></div><div class="sqs-block button-block sqs-block-button" data-block-type="53" id="block-yui_3_17_2_1_1661883881471_26973"><div class="sqs-block-content">
+</div></div>
+<div class="sqs-block horizontalrule-block sqs-block-horizontalrule" data-block-type="47" id="block-yui_3_17_2_1_1661883881471_26541"><div class="sqs-block-content"><hr /></div></div>
+
+<div class="row sqs-row"><div class="col sqs-col-4 span-4"><div class="sqs-block button-block sqs-block-button" data-block-type="53" id="block-yui_3_17_2_1_1660581104174_4120"><div class="sqs-block-content">
 
 <div
   class="sqs-block-button-container sqs-block-button-container--left"
@@ -175,11 +196,57 @@ include '../backend/receita_class.php';
     Voltar
   </a>
 </div>
-</div></div></div></div></div>
+</div></div></div>
+
+<div class="col sqs-col-6 span-6"><div class="sqs-block button-block sqs-block-button" data-block-type="53" id="block-yui_3_17_2_1_1660581191892_3914"><div class="sqs-block-content">
+
+
+
+<div
+  class="sqs-block-button-container sqs-block-button-container--right"
+  data-animation-role="button"
+  data-alignment="right"
+  data-button-size="small"
+  data-button-type="tertiary"
+>
+  <button
+    type="button"
+    onclick="edit('<?php if(isset($id)){ echo $id; } ?>')"
+    class="sqs-block-button-element--small sqs-button-element--tertiary sqs-block-button-element"
+    
+  >
+    editar
+        </button>
+</div>
+</div></div></div>
+
+<div class="col sqs-col-2 span-2"><div class="sqs-block button-block sqs-block-button" data-block-type="53" id="block-yui_3_17_2_1_1660581191892_4582"><div class="sqs-block-content">
+
+<div
+  class="sqs-block-button-container sqs-block-button-container--left"
+  data-animation-role="button"
+  data-alignment="left"
+  data-button-size="small"
+  data-button-type="tertiary"
+>
+  <button
+    type="button"
+    onclick="exclu('<?php if(isset($id)){ echo $id; } ?>')"
+    class="sqs-block-button-element--small sqs-button-element--tertiary sqs-block-button-element"
+    
+  >
+    excluir
+        </button>
+</div>
+</div></div></div>
+
+</div>
+
+</div></div></div>
         </div><!--
         -->
-
-        <?php } ?>
+        
+      </main>
         
       </main>
   
@@ -214,7 +281,7 @@ include '../backend/receita_class.php';
 
     function edit(n){
 
-        window.location = '../add_receita.php?id=' + n;
+        window.location = 'add_receita.php?id=' + n;
 
     }
 
