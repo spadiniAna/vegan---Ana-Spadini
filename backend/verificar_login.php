@@ -1,6 +1,6 @@
 <?php
 
-    include_once 'login_class.php';
+    require 'login_class.php';
     
     if(isset($_POST['email']) && isset($_POST['senha'])){
 
