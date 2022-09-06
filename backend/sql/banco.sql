@@ -30,7 +30,7 @@ create table blogs(
     texto varchar(2000) not null,
     img varbinary(max),
     primary key(id)
-)
+);
 
 create table mapa(
     id int not null auto_increment,
@@ -39,4 +39,4 @@ create table mapa(
     descr varchar(300) not null,
     img varbinary(max),
     primary key(id)
-)
+);

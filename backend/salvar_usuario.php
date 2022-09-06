@@ -1,6 +1,6 @@
 <?php
 
-    include_once 'user_class.php';
+    include_once 'user.class.php';
 
     if(isset($_POST['nome']) && isset($_POST['email']) && isset($_POST['senha'])){
 
@@ -8,13 +8,13 @@
 
         if(isset($_POST['id'])){
 
-            $usuarios->set_id($_POST['id']);
+            $usuarios->setId($_POST['id']);
 
         }
 
-        $usuarios->set_nome($_POST['nome']);
-        $usuarios->set_email($_POST['email']);
-        $usuarios->set_senha($_POST['senha']);
+        $usuarios->setNome($_POST['nome']);
+        $usuarios->setEmail($_POST['email']);
+        $usuarios->setSenha($_POST['senha']);
 
         $usuarios->cadastrar();
 

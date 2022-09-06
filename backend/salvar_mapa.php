@@ -1,6 +1,6 @@
 <?php
 
-    include_once 'mapa_class.php';
+    include_once 'mapa.class.php';
 
     if(isset($_POST['nome']) && isset($_POST['loc']) && isset($_POST['descr']) && isset($_POST['img'])){
 
@@ -8,14 +8,14 @@
 
         if(isset($_POST['id'])){
 
-            $mapa->set_id($_POST['id']);
+            $mapa->setId($_POST['id']);
 
         }
 
-        $mapa->set_nome($_POST['nome']);
-        $mapa->set_loc($_POST['loc']);
-        $mapa->set_descr($_POST['descr']);
-        $mapa->set_img($_POST['img']);
+        $mapa->setNome($_POST['nome']);
+        $mapa->setLoc($_POST['loc']);
+        $mapa->setDescr($_POST['descr']);
+        $mapa->setImg($_POST['img']);
 
 
         $mapa->inserir();

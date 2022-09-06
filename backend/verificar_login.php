@@ -1,13 +1,13 @@
 <?php
 
-    require 'login_class.php';
+    require 'login.class.php';
     
     if(isset($_POST['email']) && isset($_POST['senha'])){
 
         $login = new login();
 
-        $login->set_email($_POST['email']);
-        $login->set_senha($_POST['senha']);
+        $login->setEmail($_POST['email']);
+        $login->setSenha($_POST['senha']);
 
         if($login->verificar()){
 

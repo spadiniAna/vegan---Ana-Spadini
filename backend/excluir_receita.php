@@ -1,12 +1,12 @@
 <?php
 
-    include_once 'receita_class.php';
+    include_once 'receita.class.php';
 
     if(isset($_GET['id'])){
         
         $receitas = new receitas();
 
-            $receitas->set_id($_GET['id']);
+            $receitas->setId($_GET['id']);
 
         $receitas->excluir();
 

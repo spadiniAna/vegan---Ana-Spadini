@@ -1,12 +1,12 @@
 <?php
 
-    include_once 'user_class.php';
+    include_once 'user.class.php';
 
     if(isset($_GET['id'])){
         
         $usuarios = new usuarios();
 
-            $usuarios->set_id($_GET['id']);
+            $usuarios->setId($_GET['id']);
 
         $usuarios->excluir();
 

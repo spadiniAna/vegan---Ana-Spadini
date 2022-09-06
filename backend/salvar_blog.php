@@ -1,6 +1,6 @@
 <?php
 
-    include_once 'blog_class.php';
+    include_once 'blog.class.php';
 
     if(isset($_POST['titulo']) && isset($_POST['descr']) && isset($_POST['texto']) && isset($_POST['img'])){
 
@@ -8,14 +8,14 @@
 
         if(isset($_POST['id'])){
 
-            $blog->set_id($_POST['id']);
+            $blog->setId($_POST['id']);
 
         }
 
-        $blog->set_titulo($_POST['titulo']);
-        $blog->set_descr($_POST['descr']);
-        $blog->set_texto($_POST['texto']);
-        $blog->set_img($_POST['img']);
+        $blog->setIitulo($_POST['titulo']);
+        $blog->setDescr($_POST['descr']);
+        $blog->setTexto($_POST['texto']);
+        $blog->setImg($_POST['img']);
 
 
         $blog->inserir();
