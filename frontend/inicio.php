@@ -91,7 +91,8 @@
   </blockquote>
   <figcaption class="source">&mdash; Kat Von D, tatuadora</figcaption>
 </figure>
-</div></div><div class="sqs-block horizontalrule-block sqs-block-horizontalrule" data-block-type="47" id="block-yui_3_17_2_1_1660737098269_12960"><div class="sqs-block-content"><hr /></div></div>
+</div></div>
+<div class="sqs-block horizontalrule-block sqs-block-horizontalrule" data-block-type="47" id="block-yui_3_17_2_1_1660737098269_12960"><div class="sqs-block-content"><hr /></div></div>
 
 <div class="sqs-block image-block sqs-block-image" data-block-type="5" id="block-bde9fb1deb98c2a5d4e7"><div class="sqs-block-content">
 

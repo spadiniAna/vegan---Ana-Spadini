@@ -1,4 +1,8 @@
+<?php
 
+include '../backend/mapa.class.php';
+
+?>
 <!doctype html>
 <html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" lang="pt-BR"  class="touch-styles" data-authenticated-account>
   <head>
@@ -75,7 +79,8 @@
         --><!--
         --><!--
         --><div id="content" class="main-content" data-content-field="main-content" data-collection-id="62fbe2fda69eb51c4864ba97" data-edit-main-image="">
-         <div class="sqs-layout sqs-grid-12 columns-12" data-type="page" data-updated-on="1660682451957" id="page-62fbe2fda69eb51c4864ba97"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block image-block sqs-block-image" data-aspect-ratio="43.09623430962343" data-block-type="5" id="block-yui_3_17_2_1_1660681953802_7891"><div class="sqs-block-content">
+         <div class="sqs-layout sqs-grid-12 columns-12" data-type="page" data-updated-on="1660682451957" id="page-62fbe2fda69eb51c4864ba97"><div class="row sqs-row"><div class="col sqs-col-12 span-12">
+           <div class="sqs-block image-block sqs-block-image" data-aspect-ratio="43.09623430962343" data-block-type="5" id="block-yui_3_17_2_1_1660681953802_7891"><div class="sqs-block-content">
 
 
     <div
@@ -100,26 +105,12 @@
             "
             style="max-width:2312px;"
         >
-          
-        
-        
-
-        
-          
-            
-          <div
-              
+          <div             
               
               class="image-block-wrapper"
               data-animation-role="image"
-              
-  
-
           >
             <div class="sqs-image-shape-container-element
-              
-          
-        
               has-aspect-ratio
             " style="
                 position: relative;
@@ -132,49 +123,68 @@
               <noscript><img src="https://images.squarespace-cdn.com/content/v1/62f1386b35aba550b1e003e3/fb3b0ddf-a8b6-4a2f-b14c-38cad5ef41d0/unsplash-image-l68Z6eF2peA" alt="" /></noscript><img class="thumb-image" data-src="https://images.squarespace-cdn.com/content/v1/62f1386b35aba550b1e003e3/fb3b0ddf-a8b6-4a2f-b14c-38cad5ef41d0/unsplash-image-l68Z6eF2peA" data-image="https://images.squarespace-cdn.com/content/v1/62f1386b35aba550b1e003e3/fb3b0ddf-a8b6-4a2f-b14c-38cad5ef41d0/unsplash-image-l68Z6eF2peA" data-image-dimensions="2312x1300" data-image-focal-point="0.5,0.5" alt="" data-load="false" data-image-id="62fc00576e6d86061e120f8e" data-type="image" />
             </div>
           </div>
-        
-          
-        
 
-        
-      
         </figure>
-      
-
     </div>
 
 </div></div></div></div><div class="row sqs-row"><div class="col sqs-col-10 span-10"><div class="sqs-block search-block sqs-block-search" data-block-type="33" id="block-yui_3_17_2_1_1660678812134_2872"><div class="sqs-block-content">
 
-<div class="sqs-search-ui-text-input sqs-search-ui-button-wrapper color-dark" data-source="block" style="background-color: white;" data-preview="true" data-collection="">
-  <div class="spinner-wrapper"></div>
-  <input
-    type="search"
-    class="search-input"
-    value=""
-    placeholder="Busca"
-    aria-label="Busca"
-  />
-</div>
-</div></div></div><div class="col sqs-col-2 span-2"><div class="sqs-block button-block sqs-block-button" data-block-type="53" id="block-yui_3_17_2_1_1660326354181_5502"><div class="sqs-block-content">
+<div class="sqs-search-ui-text-input sqs-search-ui-button-wrapper color-dark" style="background-color: white;" data-source="block" data-preview="true" data-collection="62e3d4707eff9a7b34d3ea1c">
+                    <input
+                      type="search"
+                      class="search-input"
+                      placeholder="Busca"
+                      aria-label="Busca"
+                      name="a"
+                    />
+                  </div>
+                  </div></div></div>
+                    <div class="col sqs-col-2 span-2"><div class="sqs-block button-block sqs-block-button" data-block-type="53" id="block-yui_3_17_2_1_1659699719759_14652"><div class="sqs-block-content">
 
-<div
-  class="sqs-block-button-container sqs-block-button-container--center"
-  data-animation-role="button"
-  data-alignment="center"
-  data-button-size="small"
-  data-button-type="tertiary"
->
-  <a
-    href="https://conhecimentos.php"
-    class="sqs-block-button-element--small sqs-button-element--tertiary sqs-block-button-element"
-    
-  >
-    pesquisar
-  </a>
-</div>
-</div></div></div></div><div class="sqs-block horizontalrule-block sqs-block-horizontalrule" data-block-type="47" id="block-yui_3_17_2_1_1660678812134_8835"><div class="sqs-block-content"><hr /></div></div>
+                    <div
+                      class="sqs-block-button-container sqs-block-button-container--right"
+                      data-animation-role="button"
+                      data-alignment="right"
+                      data-button-size="small"
+                      data-button-type="tertiary"
+                    >
+                      <button
+                        class="sqs-block-button-element--small sqs-button-element--tertiary sqs-block-button-element"
+                        type="submit"
+                      >
+                        Pesquisar
+                  </button>
+                    </div>
+                    </div></div></div>
 
-<div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-6ce33903eabc50600192"><div class="sqs-block-content"><h3 style="white-space:pre-wrap;">Recurso 2</h3><p class="" style="white-space:pre-wrap;">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Vivamus sit amet semper lacus, in mollis libero.</p>
+                  </form>
+</div>
+
+<div class="sqs-block horizontalrule-block sqs-block-horizontalrule" data-block-type="47" id="block-yui_3_17_2_1_1660678812134_8835"><div class="sqs-block-content"><hr /></div></div>
+
+
+<?php
+
+$mapa = new mapa();
+
+if(isset($_GET['a'])){
+
+    $mapas = $mapa->busca($_GET['a']);
+
+}else{
+
+    $mapas = $mapa->listar();
+
+}
+
+
+foreach($mapas as $m){
+
+?>
+
+<div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-6ce33903eabc50600192"><div class="sqs-block-content">
+  <h3 style="white-space:pre-wrap;"><?php echo $m['titulo'];?></h3>
+  <p class="" style="white-space:pre-wrap;"><?php echo $m['descr'];?></p>
 
 
 </div></div><div class="sqs-block button-block sqs-block-button" data-block-type="53" id="block-6440c8716035b73869a6"><div class="sqs-block-content">
@@ -187,14 +197,16 @@
   data-button-type="tertiary"
 >
   <a
-    href=""
+    href="mostrar_mapa.php?id=<?php echo $m['id']; ?>"
     class="sqs-block-button-element--small sqs-button-element--tertiary sqs-block-button-element"
     
   >
     Saiba mais
   </a>
 </div>
-</div></div><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-472c473726d0be1f4ea4"><div class="sqs-block-content">&nbsp;</div></div>
+</div></div>
+<div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-472c473726d0be1f4ea4"><div class="sqs-block-content">&nbsp;</div></div>
+<?php  } ?>
 
 <div class="sqs-block horizontalrule-block sqs-block-horizontalrule" data-block-type="47" id="block-yui_3_17_2_1_1660678812134_8835"><div class="sqs-block-content"><hr /></div></div>
 

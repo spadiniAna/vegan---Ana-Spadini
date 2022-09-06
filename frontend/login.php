@@ -1,3 +1,18 @@
+<?php
+
+    session_start();
+
+    if(isset($_SESSION['logado'])){
+
+        if($_SESSION['logado'] === true){
+
+            header('location: inicio.php');
+
+        }
+
+    }
+
+?>
 
 <!doctype html>
 <html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" lang="pt-BR"  class="touch-styles" data-authenticated-account>
@@ -97,9 +112,7 @@ box-shadow: 5px 5px 10px rgb(121, 121, 121);
         <div class="field-list clear">
           
 
-                    <?php if(isset($id)){ ?>
                         <input type="hidden" name="id" value="<?php echo $id; ?>">
-                    <?php } ?>
 
               <div id="email-field" class="form-item field email required">
                 
@@ -114,10 +127,6 @@ box-shadow: 5px 5px 10px rgb(121, 121, 121);
                     id="email"
                     name="email"
                     type="email"
-                    autocomplete="email"
-                    spellcheck="false"
-                    value="<?php if(isset($email)){ echo $email; } ?>"
-                    aria-required="true"
                 />
               </div>
 
@@ -134,8 +143,7 @@ box-shadow: 5px 5px 10px rgb(121, 121, 121);
                     class="field-element password"
                     type="password"
                     id="senha" 
-                    value="<?php if(isset($senha)){ echo $senha; } ?>"                  
-                    aria-required="true"
+                    name="senha"
                 />
               </div>
         </div>
@@ -153,7 +161,8 @@ box-shadow: 5px 5px 10px rgb(121, 121, 121);
         />
     </form>
   </div>     
-  <div class="row sqs-row"><div class="col sqs-col-0 span-0"></div><div class="col sqs-col-12 span-12"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1659979004339_6051"><div class="sqs-block-content"><p style="text-align:right;white-space:pre-wrap;" class="">Não possui uma conta? <a href="cadastro.php">Cadastre-se</a></p>
+  <div class="row sqs-row"><div class="col sqs-col-0 span-0"></div><div class="col sqs-col-12 span-12"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1659979004339_6051"><div class="sqs-block-content">
+    <p style="text-align:right;white-space:pre-wrap;" class="">Não possui uma conta? <a href="cadastro.php">Cadastre-se</a></p>
 
 
 </div></div>          

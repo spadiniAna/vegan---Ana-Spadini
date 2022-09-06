@@ -1,11 +1,11 @@
 <?php
 
-    include '../backend/receita_class.php';
+    include '../backend/receita.class.php';
 
     if(isset($_GET['id'])){
 
       $receitas = new receitas();
-      $receitas->set_id($_GET['id']);
+      $receitas->setId($_GET['id']);
 
       $receita = $receitas->listar();
 
@@ -236,7 +236,7 @@ box-shadow: 5px 5px 10px rgb(121, 121, 121);
                     <select
                     class="field-element"
                     data-title="Ampm"
-                    
+                    name="dificuldade"
                   >                    
                     <option value="0">Selecionar</option>
                     <option value="facil">Fácil</option>

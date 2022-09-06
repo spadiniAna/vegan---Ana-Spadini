@@ -1,11 +1,11 @@
 <?php
 
-    include '../backend/mapa_class.php';
+    include '../backend/mapa.class.php';
 
     if(isset($_GET['id'])){
 
       $mapa = new mapa();
-      $mapa->set_id($_GET['id']);
+      $mapa->setId($_GET['id']);
 
       $mapas = $mapa->listar();
 

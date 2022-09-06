@@ -1,11 +1,11 @@
 <?php
 
-    include '../backend/blog_class.php';
+    include '../backend/blog.class.php';
 
     if(isset($_GET['id'])){
 
       $blog = new blog();
-      $blog->set_id($_GET['id']);
+      $blog->setId($_GET['id']);
 
       $blogs = $blog->listar();
 

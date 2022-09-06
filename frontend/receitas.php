@@ -1,6 +1,6 @@
 <?php
 
-    include '../backend/receita_class.php';
+    include '../backend/receita.class.php';
 
 ?>
 <!doctype html>
@@ -83,34 +83,38 @@
 
 </div></div></div></div><div class="row sqs-row"><div class="col sqs-col-10 span-10"><div class="sqs-block search-block sqs-block-search" data-block-type="33" id="block-yui_3_17_2_1_1660678812134_2872"><div class="sqs-block-content">
 
-<div class="sqs-search-ui-text-input sqs-search-ui-button-wrapper color-dark" data-source="block" style="background-color: white;" data-preview="true" data-collection="">
-  <div class="spinner-wrapper"></div>
-  <input
-    type="search"
-    class="search-input"
-    value=""
-    placeholder="Busca"
-    aria-label="Busca"
-  />
-</div>
-</div></div></div><div class="col sqs-col-2 span-2"><div class="sqs-block button-block sqs-block-button" data-block-type="53" id="block-yui_3_17_2_1_1660326354181_5502"><div class="sqs-block-content">
 
-<div
-  class="sqs-block-button-container sqs-block-button-container--center"
-  data-animation-role="button"
-  data-alignment="center"
-  data-button-size="small"
-  data-button-type="tertiary"
->
-  <a
-    href="https://conhecimentos.php"
-    class="sqs-block-button-element--small sqs-button-element--tertiary sqs-block-button-element"
-    
-  >
-    pesquisar
-  </a>
+<div class="sqs-search-ui-text-input sqs-search-ui-button-wrapper color-dark" style="background-color: white;" data-source="block" data-preview="true" data-collection="62e3d4707eff9a7b34d3ea1c">
+                    <input
+                      type="search"
+                      class="search-input"
+                      placeholder="Busca"
+                      aria-label="Busca"
+                      name="a"
+                    />
+                  </div>
+                  </div></div></div>
+                    <div class="col sqs-col-2 span-2"><div class="sqs-block button-block sqs-block-button" data-block-type="53" id="block-yui_3_17_2_1_1659699719759_14652"><div class="sqs-block-content">
+
+                    <div
+                      class="sqs-block-button-container sqs-block-button-container--right"
+                      data-animation-role="button"
+                      data-alignment="right"
+                      data-button-size="small"
+                      data-button-type="tertiary"
+                    >
+                      <button
+                        class="sqs-block-button-element--small sqs-button-element--tertiary sqs-block-button-element"
+                        type="submit"
+                      >
+                        Pesquisar
+                  </button>
+                    </div>
+                    </div></div></div>
+
+                  </form>
 </div>
-</div></div></div></div><div class="sqs-block horizontalrule-block sqs-block-horizontalrule" data-block-type="47" id="block-yui_3_17_2_1_1660678812134_8835"><div class="sqs-block-content"><hr /></div></div>
+<div class="sqs-block horizontalrule-block sqs-block-horizontalrule" data-block-type="47" id="block-yui_3_17_2_1_1660678812134_8835"><div class="sqs-block-content"><hr /></div></div>
 
 
 <?php

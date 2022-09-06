@@ -77,17 +77,20 @@
          <div class="sqs-layout sqs-grid-12 columns-12" data-type="page" data-updated-on="1660736985810" id="page-62fbe3148303cb726b7e5683"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="row sqs-row"><div class="col sqs-col-2 span-2"><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_1_1660735711881_33787"><div class="sqs-block-content">&nbsp;</div></div></div><div class="col sqs-col-8 span-8"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1660735711881_31515"><div class="sqs-block-content"><h1 style="text-align:center;white-space:pre-wrap;">título geral</h1><p style="text-align:center;white-space:pre-wrap;" class="">Aqui vou escrever um texto geral para ter uma ideia melhor de como isso fica. Vou tentar escrever bastante para conseguir visualizar o formato disso.</p>
 
 
-</div></div></div><div class="col sqs-col-2 span-2"><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_1_1660735711881_35568"><div class="sqs-block-content">&nbsp;</div></div></div></div><div class="sqs-block horizontalrule-block sqs-block-horizontalrule" data-block-type="47" id="block-yui_3_17_2_1_1660735711881_54296"><div class="sqs-block-content"><hr /></div></div><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-62fbe3148303cb726b7e5684"><div class="sqs-block-content"><h2 style="margin-left:40px;white-space:pre-wrap;">título</h2><p class="" style="white-space:pre-wrap;">texto <strong>texto em negrito</strong></p><h2 style="margin-left:40px;white-space:pre-wrap;">título</h2><h3 style="margin-left:40px;white-space:pre-wrap;">subtítulo</h3><p class="" style="white-space:pre-wrap;">texto <em>texto em itálico</em></p><h3 style="margin-left:40px;white-space:pre-wrap;">outro subtítulo</h3><ul data-rte-list="default"><li><p class="" style="white-space:pre-wrap;">enumeração</p></li><li><p class="" style="white-space:pre-wrap;">mais um</p></li><li><p class="" style="white-space:pre-wrap;">outro</p></li></ul><h2 style="margin-left:40px;white-space:pre-wrap;">título</h2><p class="" style="white-space:pre-wrap;">texto</p><ol data-rte-list="default"><li><p class="" style="white-space:pre-wrap;">aqui é com número</p></li><li><p class="" style="white-space:pre-wrap;">outro</p></li></ol><h3 style="margin-left:40px;white-space:pre-wrap;">subtítulo</h3><p class="" style="white-space:pre-wrap;">texto <a href="http://link.com">e um link</a></p>
+</div></div></div>
+<div class="col sqs-col-2 span-2"><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_1_1660735711881_35568"><div class="sqs-block-content">&nbsp;</div></div></div></div>
+<div class="sqs-block horizontalrule-block sqs-block-horizontalrule" data-block-type="47" id="block-yui_3_17_2_1_1660735711881_54296"><div class="sqs-block-content"><hr /></div></div>
+<div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-62fbe3148303cb726b7e5684"><div class="sqs-block-content">
+  <h2 style="margin-left:40px;white-space:pre-wrap;">título</h2><p class="" style="white-space:pre-wrap;">texto <strong>texto em negrito</strong></p>
+  <h2 style="margin-left:40px;white-space:pre-wrap;">título</h2>
+  <h3 style="margin-left:40px;white-space:pre-wrap;">subtítulo</h3><p class="" style="white-space:pre-wrap;">texto <em>texto em itálico</em></p>
+  <h3 style="margin-left:40px;white-space:pre-wrap;">outro subtítulo</h3><ul data-rte-list="default"><li><p class="" style="white-space:pre-wrap;">enumeração</p></li><li><p class="" style="white-space:pre-wrap;">mais um</p></li><li><p class="" style="white-space:pre-wrap;">outro</p></li></ul><h2 style="margin-left:40px;white-space:pre-wrap;">título</h2><p class="" style="white-space:pre-wrap;">texto</p><ol data-rte-list="default"><li><p class="" style="white-space:pre-wrap;">aqui é com número</p></li><li><p class="" style="white-space:pre-wrap;">outro</p></li></ol><h3 style="margin-left:40px;white-space:pre-wrap;">subtítulo</h3><p class="" style="white-space:pre-wrap;">texto <a href="http://link.com">e um link</a></p>
 
 
-</div></div><div class="sqs-block image-block sqs-block-image" data-block-type="5" id="block-yui_3_17_2_1_1660735711881_44262"><div class="sqs-block-content">
+</div></div>
 
-
-
-
-    
-
-      <figure
+<div class="sqs-block image-block sqs-block-image" data-block-type="5" id="block-yui_3_17_2_1_1660735711881_44262"><div class="sqs-block-content">
+  <figure
           class="
             sqs-block-image-figure
             image-block-outer-wrapper
@@ -113,8 +116,6 @@
               data-animation-role="image"
               data-description=""
               
-  
-
           >
             <div class="sqs-image-shape-container-element
               
@@ -130,44 +131,22 @@
               <div class="image-overlay" style="overflow: hidden;"></div>
             </div>
           
-            </div>
-          
-
+            </div> 
         </div>
-
         
-          
           <figcaption class="image-card-wrapper" data-width-ratio>
             <div class="image-card sqs-dynamic-text-container">
-
               
-                <div class="image-title-wrapper"><div class="image-title sqs-dynamic-text"
-                
-  
-><p class="" style="white-space:pre-wrap;">título</p></div></div>
+                <div class="image-title-wrapper"><div class="image-title sqs-dynamic-text"><p class="" style="white-space:pre-wrap;">título</p></div></div>
               
-
-              
-                <div class="image-subtitle-wrapper"><div class="image-subtitle sqs-dynamic-text"
-                
-  
-><p class="" style="white-space:pre-wrap;">Isso aqui talvez seja útil, então vou manter aqui para ter acesso ao código e poder editar depois.</p></div></div>
-              
-
-              
+                <div class="image-subtitle-wrapper"><div class="image-subtitle sqs-dynamic-text"><p class="" style="white-space:pre-wrap;">Isso aqui talvez seja útil, então vou manter aqui para ter acesso ao código e poder editar depois.</p></div></div>
 
             </div>
           </figcaption>
-        
-
-      </figure>
-
-    
-
   
-
-
-</div></div></div></div></div>
+      </figure>
+</div></div>
+</div></div></div>
         </div><!--
         -->
         

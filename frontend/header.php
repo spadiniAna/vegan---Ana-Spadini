@@ -1,3 +1,15 @@
+<?php
+session_start();
+
+    include '../backend/login.class.php';
+  
+    if(!isset($_SESSION['logado'])){
+      $_SESSION['logado'] = false;
+
+  }
+
+?>
+
 <div id="mobileNavWrapper" class="nav-wrapper" data-content-field="navigation-mobileNav">
     <nav id="mobileNavigation">
       
@@ -35,11 +47,25 @@
               </a>
             </div>
   
+          <?php  if(isset($_SESSION['logado'])){
+          if($_SESSION['logado'] === false){ ?>
             <div class="collection">
               <a href="login.php">
                 Entrar
               </a>
             </div>
+            <?php }} ?>
+
+            
+            <?php if(isset($_SESSION['logado'])){
+               if($_SESSION['logado'] === true){
+                ?>
+                <div class="collection">
+                  <a href="../backend/logout.php">
+                    Sair
+                  </a>
+                </div> 
+            <?php }} ?>
   
     </nav>
   </div>
@@ -91,13 +117,27 @@
                 Saúde
               </a>
             </div>
-            
+  
+          <?php  if(isset($_SESSION['logado'])){
+          if($_SESSION['logado'] === false){ ?>
             <div class="collection">
               <a href="login.php">
                 Entrar
               </a>
             </div>
+            <?php }} ?>
+
             
+            <?php if(isset($_SESSION['logado'])){
+              if($_SESSION['logado'] === true){
+                ?>
+                <div class="collection">
+                  <a href="../backend/logout.php">
+                    Sair
+                  </a>
+                </div> 
+            <?php }} ?>
+                    
     </nav>
   </div>
   <!-- style below blocks out the mobile nav toggle only when nav is loaded -->
