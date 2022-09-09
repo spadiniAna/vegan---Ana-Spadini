@@ -1,0 +1,25 @@
+
+.ico-svg.ico-orange {
+    fill: #92a34f;
+    
+}
+
+.send-recipe-form input[type=text] {
+    border-radius: 20px;
+    color: #595959;
+}
+.send-recipe-form .gray-box {
+    border: 0;
+    border-radius: 10px;
+    background-color: #e7e7e7;
+    padding: 10px 20px;
+}
+
+.send-recipe-images .send-recipe-files .clear-send-images.clear-send-images-hover {
+    visibility: visible;
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+
